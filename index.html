@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live scores</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Football <span class="spa">Live</span> Scores</h1>
+        <div class="input-group">
+            <label for="league-select">Choose a league:</label>
+            <select id="league-select">
+                <option value="Premier League">Premier League</option>
+                <option value="La Liga">La Liga</option>
+                <option value="Bundesliga">Bundesliga</option>
+                <option value="ligue 1">ligue 1</option>
+                <!-- Add more leagues as needed -->
+            </select>
+            <button id="fetch-stats">Get Stats</button>
+        </div>
+        <div id="stats-display">
+            <!-- Stats will be displayed here -->
+        </div>
+    </div>
+
+    <script src="./scores.js"></script>
+</body>
+</html>
